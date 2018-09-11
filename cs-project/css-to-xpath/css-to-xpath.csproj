@@ -4,9 +4,16 @@
     <TargetFrameworks>netstandard1.3;netstandard2.0;net40;net45;net451</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>tk.crazylab.csstoxpath</PackageId>
-    <Authors>Leonardo R. G.</Authors>
-    <Company />
+    <Authors>Leonardo R. Ganança</Authors>
+    <Company>Leonardo R. Ganança</Company>
     <Description>A wrapper to run css-to-xpath on .net with Jint</Description>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Copyright>Leonardo R. Ganança</Copyright>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/leonardothehuman/css-to-xpath-sharp/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/leonardothehuman/css-to-xpath-sharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/leonardothehuman/css-to-xpath-sharp</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>css xpath javascript jint html parse parsing</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
