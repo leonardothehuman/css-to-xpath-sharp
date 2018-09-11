@@ -1,3 +1,5 @@
+#A wrapper to run css-to-xpath on .net with Jint 
+
 To build this project:
 1. Install the node dependencies
 2. Run "node build.js build" to generate the css-to-xpath javascript
