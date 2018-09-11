@@ -6,3 +6,5 @@ cs-project/.vs
 cs-project/packages
 cs-project/WindowsFormsApp1/bin
 cs-project/WindowsFormsApp1/obj
+node_modules
+package-lock.json

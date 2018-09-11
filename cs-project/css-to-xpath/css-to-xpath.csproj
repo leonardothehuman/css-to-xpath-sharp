@@ -1,16 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.3</TargetFramework>
+    <TargetFrameworks>netstandard1.3;netstandard2.0;net40;net45;net451</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>tk.crazylab.csstoxpath</PackageId>
+    <Authors>Leonardo R. G.</Authors>
+    <Company />
+    <Description>A wrapper to run css-to-xpath on .net with Jint</Description>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Include="JavascriptString.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>JavascriptString.tt</DependentUpon>
-    </None>
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Jint" Version="2.11.58" />
