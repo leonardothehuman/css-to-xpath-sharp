@@ -1,4 +1,4 @@
-#A wrapper to run css-to-xpath on .net with Jint 
+# A wrapper to run css-to-xpath on .net with Jint 
 
 To build this project:
 1. Install the node dependencies
