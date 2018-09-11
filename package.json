@@ -1,0 +1,17 @@
+{
+  "name": "css-to-xpath-sharp",
+  "version": "1.0.0",
+  "description": "C# library to convert css selectors to xpath with node's css-to-xpath package and jint javascript interpreter",
+  "main": "JavascriptString.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo R. G.",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "commander": "^2.16.0",
+    "css-to-xpath": "^0.1.0",
+    "shelljs": "^0.8.2",
+    "webpack": "^4.16.3"
+  }
+}
